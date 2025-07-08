@@ -2,7 +2,7 @@ name: api-build
 
 on:
   push:
-    paths:
+    paths: #restricts the trigger on push to certain paths
       - ".github/workflows/api-build.yml"
       - "api/**"
   workflow_dispatch: # manual
