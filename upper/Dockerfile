@@ -32,3 +32,5 @@ COPY --from=build /bin/upper /bin/
 
 
 ENTRYPOINT [ "/bin/upper" ]
+
+#test
